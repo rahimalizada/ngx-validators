@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@rahimalizada/ngx-validators": [
+        "dist/rahimalizada/ngx-validators/rahimalizada-ngx-validators",
+        "dist/rahimalizada/ngx-validators"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
