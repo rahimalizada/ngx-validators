@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { NgxValidatorsComponent } from './ngx-validators.component';
-
-
 
 @NgModule({
-  declarations: [NgxValidatorsComponent],
-  imports: [
-  ],
-  exports: [NgxValidatorsComponent]
+  declarations: [],
+  imports: [],
+  exports: [],
 })
-export class NgxValidatorsModule { }
+export class NgxValidatorsModule {}
