@@ -1,6 +1,23 @@
 {
   "name": "@rahimalizada/ngx-validators",
   "version": "0.0.4",
+  "description": "A collection of Angular validators",
+  "keywords": [
+    "angular",
+    "validator"
+  ],
+  "author": {
+    "name": "Rahim Alizada"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/rahimalizada/ngx-validators",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahimalizada/ngx-validators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahimalizada/ngx-validators/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.1",
     "@angular/core": "^9.1.1",
