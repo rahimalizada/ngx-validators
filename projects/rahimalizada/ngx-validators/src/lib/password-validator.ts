@@ -1,12 +1,12 @@
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
 
 export class PasswordValidator {
-  private static readonly DIGIT_REGEXP = /\d/;
-  private static readonly CAPITAL_LETTER_REGEXP = /[A-Z]/;
-  private static readonly SMALL_LETTER_REGEXP = /[a-z]/;
-  private static readonly SPECIAL_CHAR_REGEXP = /[\\/=!@#$%^&(){}\[\]:;<>,.?~_+-]/;
-
-  // _+-=\\/|
+  private static readonly DIGIT_REGEXP = new RegExp('\\d');
+  private static readonly CAPITAL_LETTER_REGEXP = new RegExp('[A-Z]');
+  private static readonly SMALL_LETTER_REGEXP = new RegExp('[a-z]');
+  private static readonly SPECIAL_CHAR_REGEXP = new RegExp(
+    '[\\\\/=!@#$%^&(){}\\[\\]:;<>,.?~_+-]'
+  );
 
   static get(
     options: {
