@@ -26,13 +26,13 @@ export class TestComponent implements OnInit {
   }
 }
 
-describe('UrlValidator', () => {
+describe('PatternValidator', () => {
   it('should create an instance', () => {
     expect(new PatternValidator()).toBeTruthy();
   });
 });
 
-describe('A form with UrlValidator component', () => {
+describe('A form with PasswordValidator component', () => {
   let component: TestComponent;
   let fixture: ComponentFixture<TestComponent>;
 
