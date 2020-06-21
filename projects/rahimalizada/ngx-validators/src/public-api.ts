@@ -4,4 +4,5 @@
 
 export * from './lib/fields-match-validator';
 export * from './lib/ngx-validators.module';
+export * from './lib/pattern-validator';
 export * from './lib/url-validator';
