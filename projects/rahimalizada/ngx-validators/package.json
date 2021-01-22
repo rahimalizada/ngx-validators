@@ -19,8 +19,8 @@
     "url": "https://github.com/rahimalizada/ngx-validators/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0"
+    "@angular/common": "^11.1.0",
+    "@angular/core": "^11.1.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
